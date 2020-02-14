@@ -1,0 +1,8 @@
+repo:             version-control-with-git
+site_name:        Version Control with Git
+authors:      
+  - name: Helen Kershaw
+    github_user: hkershaw-brown
+site_description: A practical introduction to version control using Git 
+docs_url:         https://github.com/brown-ccv/version-control-with-git
+type:             workshop    # required. choose one of [software, tutorial, workshop, documentation]
