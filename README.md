@@ -17,7 +17,51 @@ Files that start with a . are hidden.  There are two to be aware of for this wor
 To view hidden files in a directory, use
 `ls -l`
 
-#### Git is changes over time
+#### Git stores a snapshot of your project
+
+
+#### Git terminolgy
+
+clone - copy a respository
+
+commit - 
+
+fork - 
+
+branch - 
+
+#### Git - where am I?
+
+git status - see any edits you made
+
+git log - see what commit you're on
+
+git remote - see what remote repository you are tracking
+
+git branch - find out what branch you are on
+
+
+#### 
+
+git diff
+
+git diff --cached
+
+git stash
+
+git stash list
+
+git stash pop
+
+#### Reverting changes
+
+git log --oneline
+git reset 9ef9173
+git revert
+
+#### Using git hub
+
+
 
 
 ## Git commands used in this workshop
