@@ -1,4 +1,4 @@
-#Version Control with Git.  Feb 2020
+# Version Control with Git.  Feb 2020
 A practical introduction to version control using Git. Topics covered include: 
 
 * creating a repository
