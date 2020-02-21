@@ -1,4 +1,4 @@
-# Version Control with Git.  Feb 2020
+#Version Control with Git.  Feb 2020
 A practical introduction to version control using Git. Topics covered include: 
 
 * creating a repository
@@ -7,12 +7,17 @@ A practical introduction to version control using Git. Topics covered include:
 * reverting to older versions of files
 * setting up a remote repository
 
+[Jump to Exercises](#Exercises)
+ 
+
 ## Important Concepts
 
 #### Hidden files
 Files that start with a . are hidden.  There are two to be aware of for this workshop
-~/.gitconfig
-.gitignore
+
+    ~/.gitconfig
+
+    .gitignore
 
 To view hidden files in a directory, use
 `ls -l`
@@ -20,47 +25,59 @@ To view hidden files in a directory, use
 #### Git stores a snapshot of your project
 
 
+
+##### Github 
+
+Github is a place online to store your git repositories, with some social media aspects. 
+There are other services you can use, for example bitbucket and gitlab. 
+
+
 #### Git terminolgy
 
-clone - copy a respository
+`clone` - copy a respository to your computer so you can work on it
 
-commit - 
+`fork` - copy a respotiory for independent development
 
-fork - 
+`commit` - make a snapshot of the repository
 
-branch - 
+`branch` - branch off from the main developement to work on something
+
 
 #### Git - where am I?
 
-git status - see any edits you made
+`git log` - see what commit you're on
 
-git log - see what commit you're on
+`git remote` - see what remote repository you are tracking
 
-git remote - see what remote repository you are tracking
-
-git branch - find out what branch you are on
+`git branch` - find out what branch you are on
 
 
-#### 
+#### Viewing your changes
 
-git diff
+`git status` - see any edits you made
 
-git diff --cached
 
-git stash
+`git diff` - show difference between your files and the commited files
 
-git stash list
+`git diff --cached`  same as diff, but for files you have already add
 
-git stash pop
 
 #### Reverting changes
 
-git log --oneline
-git reset 9ef9173
-git revert
+`git log --oneline`  - a condense way to view the log
 
-#### Using git hub
+`git revert` - undo history but keep a record
 
+`git reset`   - undo history like it never happened
+
+
+#### Storing local changes while you pull from a remote repository
+
+`git stash`
+
+`git stash list`
+
+`git stash pop`
 
 
 
@@ -86,10 +103,75 @@ git revert
 
 `git checkout “commit#” “file”`
 
-`git reset`
-
 `git clone https://github.com/…….`
 
 `git pull`
 
 `git difftool --tool=xxdiff`
+
+# Exercises
+
+Initialize a repository
+
+`git init`
+
+Add files to a repository
+
+`git add` 
+
+Create a .gitingore file to tell git files not to track.  For example, your .gitingore file may look like this:
+
+````
+# files for git it ignore
+*.log
+*.o
+*.mod
+*.pyc
+````
+
+This means git will ignore any files that end in .log, .o, .mod, or .pyc
+
+Check the status of your repository:
+
+`git status`
+
+Add your .gitingore file.
+
+`git add .gitignore`
+
+Commit a snapshot of your repository:
+
+`git commit`
+
+View the log
+
+`git log`
+
+`git log --online`
+
+A nice tutorial on git log: https://www.atlassian.com/git/tutorials/git-log
+
+Make a change to .gitingore, e.g. remove a line or add something. Add and commit the change
+
+`git add .gitignore`
+
+`git commit`
+
+Revert the change
+
+Find the commit to revert to
+
+`git log` 
+
+Revert the change
+
+`git revert HEAD~1` 
+
+A nice tutorial on reset, checkout and revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+
+
+
+
+
+
+
