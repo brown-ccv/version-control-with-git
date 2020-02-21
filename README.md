@@ -169,6 +169,11 @@ Revert the change
 
 A nice tutorial on reset, checkout and revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
+Exercise 2
+
+Clone a repository from github
+
+Checkout an earlier version of a file
 
 
 
