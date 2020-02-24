@@ -9,6 +9,7 @@ A practical introduction to version control using Git. Topics covered include:
 
 [Jump to Exercises](#Exercises)
  
+The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scrips, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool, and you can start using it in a simple way to make your life easier.
 
 ## Important Concepts
 
@@ -24,13 +25,23 @@ To view hidden files in a directory, use
 
 #### Git stores a snapshot of your project
 
+Your project in git is stored in a **repository**
+
+Working on a project with git follows this pattern:
+
+<em>Edit / add / commit </em>
+
+ * Edit your files with your new amazing science. (that bit is up to you)
+
+ * `git add` - add a change to the staging area.   
+
+ * `git commit`  - take a snapshot of the project
 
 
-##### Github 
+#### Github 
 
 Github is a place online to store your git repositories, with some social media aspects. 
-There are other services you can use, for example bitbucket and gitlab. 
-
+There are other services you can use, for example [bitbucket](bitbucket.org) and [gitlab](https://about.gitlab.com/). 
 
 #### Git terminolgy
 
@@ -56,7 +67,6 @@ There are other services you can use, for example bitbucket and gitlab.
 
 `git status` - see any edits you made
 
-
 `git diff` - show difference between your files and the commited files
 
 `git diff --cached`  same as diff, but for files you have already add
@@ -68,10 +78,17 @@ There are other services you can use, for example bitbucket and gitlab.
 
 `git revert` - undo history but keep a record
 
-`git reset`   - undo history like it never happened
+`git reset`   - undo history like it never happened **Beware**
 
+#### Working with remotes
 
-#### Storing local changes while you pull from a remote repository
+`git pull` - get changes from the remote repository
+
+`git push origin master` - send your changes up to the remote repository
+
+##### Storing local changes while you pull from a remote repository
+
+Some times the changes you pull from a remote repository will conflict with your local changes.  You can stash your local changes, pull the new changes from the remote repository, then pop your changes back. 
 
 `git stash`
 
