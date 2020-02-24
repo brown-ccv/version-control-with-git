@@ -21,7 +21,7 @@ Files that start with a . are hidden.  There are two to be aware of for this wor
     .gitignore
 
 To view hidden files in a directory, use
-`ls -l`
+`ls -a`
 
 #### Git stores a snapshot of your project
 
