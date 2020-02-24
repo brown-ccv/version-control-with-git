@@ -9,7 +9,7 @@ A practical introduction to version control using Git. Topics covered include:
 
 [Jump to Exercises](#Exercises)
  
-The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scrips, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool, and you can start using it in a simple way to make your life easier.
+The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scrips, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool for version control, which you can start using in a simple way to make your life easier.
 
 ## Important Concepts
 
@@ -31,7 +31,7 @@ Working on a project with git follows this pattern:
 
 <em>Edit / add / commit </em>
 
- * Edit your files with your new amazing science. (that bit is up to you)
+ * Edit your files with your new amazing science (this bit is up to you).
 
  * `git add` - add a change to the staging area.   
 
@@ -41,7 +41,7 @@ Working on a project with git follows this pattern:
 #### Github 
 
 Github is a place online to store your git repositories, with some social media aspects. 
-There are other services you can use, for example [bitbucket](bitbucket.org) and [gitlab](https://about.gitlab.com/). 
+There are other services you can use, for example [bitbucket](https://www.bitbucket.org) and [gitlab](https://about.gitlab.com/). 
 
 #### Git terminolgy
 
@@ -97,7 +97,6 @@ Some times the changes you pull from a remote repository will conflict with your
 `git stash pop`
 
 
-
 ## Git commands used in this workshop
 
 `git init`
@@ -127,6 +126,8 @@ Some times the changes you pull from a remote repository will conflict with your
 `git difftool --tool=xxdiff`
 
 # Exercises
+
+## Excercise 1: make a repository
 
 Initialize a repository
 
@@ -186,14 +187,34 @@ Revert the change
 
 A nice tutorial on reset, checkout and revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
-Exercise 2
+## Exercise 2 - Cloning repositories
 
 Clone a repository from github
 
+````
+https://github.com/hkershaw-brown/poems.git
+````
+
 Checkout an earlier version of a file
 
+````
+git checkout 73eba0ddbae1598711ecaaceb609465c0cc1aa6b
+````
 
+## Exercise 2.5 - Make your own fork of a repository
 
+You will need a github account for this exercise. You can choose the poems repository, or you can fork this version-control-with-git repository, or you can pick any public repository.
 
+````
+https://github.com/brown-ccv/version-control-with-git
+````
+
+<em>Edit/add/commit</em> as you see fit (make it better). If you make it way better, send a pull request. 
+
+## Exercise 3 - Put your repository on Githib
+
+You will need a github account for this exercise. 
+
+You can use the repository from Excercise 1.  For your code, think about whether you want the repository to be public or private.  You can share private repostories with other people if you choose.  Public repositories are visible to the world.
 
 
