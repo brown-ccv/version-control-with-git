@@ -148,7 +148,7 @@ Add files to a repository
 Create a .gitingore file to tell git files not to track.  For example, your .gitingore file may look like this:
 
 ````
-# files for git it ignore
+# files for git to ignore
 *.log
 *.o
 *.mod
