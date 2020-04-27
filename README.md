@@ -7,6 +7,14 @@ A practical introduction to version control using Git. Topics covered include:
 * reverting to older versions of files
 * setting up a remote repository
 
+The workshop presentation slides can be viewed at 
+
+[google slide deck](https://docs.google.com/presentation/d/1fkSbqLP3ipCPDsUIWRaEb6N8JzCOuGjL_iFqqRAFgBA/edit?usp=sharing)
+
+You can attend this workshop in person. To find upcoming CCV events visit:
+
+[events.brown.edu/ccv](https://events.brown.edu/ccv/view/month)
+
 [Jump to Exercises](#Exercises)
  
 The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scrips, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool for version control, which you can start using in a simple way to make your life easier.
@@ -217,4 +225,7 @@ You will need a github account for this exercise.
 
 You can use the repository from Excercise 1.  For your code, think about whether you want the repository to be public or private.  You can share private repostories with other people if you choose.  Public repositories are visible to the world.
 
+----
+Checkout other [workshops](https://brownhpc.github.io/) offered by the CCV HPC team.
 
+To sign up for live events, go to the [CCV Events Calendar](https://events.brown.edu/ccv/view/all)
