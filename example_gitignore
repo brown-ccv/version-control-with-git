@@ -1,0 +1,5 @@
+# files for git to ignore
+*.o
+*.mod
+*.pyc
+.DS_Store
