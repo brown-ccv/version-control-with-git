@@ -17,7 +17,7 @@ You can attend this workshop in person. To find upcoming CCV events visit:
 
 [Jump to Exercises](#Exercises)
  
-The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scrips, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool for version control, which you can start using in a simple way to make your life easier.
+The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scripts, and even your thesis.   <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool for version control, which you can start using in a simple way to make your life easier.
 
 ## Important Concepts
 
@@ -173,7 +173,7 @@ View the log
 
 `git log`
 
-`git log --online`
+`git log --oneline`
 
 A nice tutorial on git log: https://www.atlassian.com/git/tutorials/git-log
 
@@ -209,7 +209,7 @@ Checkout an earlier version of a file
 git checkout 73eba0ddbae1598711ecaaceb609465c0cc1aa6b
 ````
 
-## Exercise 2.5 - Make your own fork of a repository
+## Exercise 3 - Make your own fork of a repository
 
 You will need a github account for this exercise. You can choose the poems repository, or you can fork this version-control-with-git repository, or you can pick any public repository.
 
@@ -219,7 +219,7 @@ https://github.com/brown-ccv/version-control-with-git
 
 <em>Edit/add/commit</em> as you see fit (make it better). If you make it way better, send a pull request. 
 
-## Exercise 3 - Put your repository on Githib
+## Exercise 4 - Put your repository on Githib
 
 You will need a github account for this exercise. 
 
