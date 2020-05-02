@@ -128,52 +128,6 @@ Some times the changes you pull from a remote repository will conflict with your
 
 `git difftool --tool=xxdiff`
 
-# Exercises
-
-## Excercise 1: make a repository
-
-Initialize a repository
-
-`git init`
-
-Create a .gitingore file to tell git files not to track.  For example, your .gitingore file may look like this:
-
-````
-# files for git to ignore
-*.log
-*.o
-*.mod
-*.pyc
-````
-
-This means git will ignore any files that end in .log, .o, .mod, or .pyc
-
-Check the status of your repository:
-
-`git status`
-
-Add your .gitingore file 
-
-`git add .gitignore`
-
-Commit a snapshot of your repository:
-
-`git commit`
-
-View the log
-
-`git log`
-
-`git log --oneline`
-
-A nice tutorial on git log: https://www.atlassian.com/git/tutorials/git-log
-
-Make a change to .gitingore, e.g. remove a line or add something. Add and commit the change
-
-`git add .gitignore`
-
-`git commit`
-
 ----
 Checkout other [workshops](https://brownhpc.github.io/) offered by the CCV HPC team.
 
