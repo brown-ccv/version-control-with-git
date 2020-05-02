@@ -18,6 +18,10 @@ You can attend this workshop in person. To find upcoming CCV events visit:
 
 The aim of the workshop is to get you started using version control, which is a great skill to have as you develop code, scripts, and even your thesis.  <em>Anything</em> that you edit can benefit from version control.  Version control allows you to recover previous versions of your project, and it allows multiple people to work on the same documents. Git is an extremely powerful tool for version control, which you can start using in a simple way to make your life easier.
 
+Checkout other [workshops](https://brownhpc.github.io/) offered by the CCV HPC team.
+
+To sign up for live events, go to the [CCV Events Calendar](https://events.brown.edu/ccv/view/all)
+
 ## Important Concepts
 
 #### Hidden files
